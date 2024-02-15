@@ -11,6 +11,7 @@ from langchain.memory import ConversationBufferMemory
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 # Streamlit Framework
+st.set_page_config(page_title="recipe generator")
 st.title("Recipe Generation")
 ip_dish_name = st.text_input("Find Recipe for: ")
 
